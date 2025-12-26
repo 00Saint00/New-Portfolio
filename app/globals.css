@@ -42,7 +42,6 @@
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
 
-
   /* screens */
   --screen-sm: 640px;
   --screen-md: 768px;
@@ -50,9 +49,9 @@
   --screen-xl: 1200px;
 
   /* font */
-  --font-primary: var(--font-jetbrainsMono, 'JetBrains Mono', monospace);
+  --font-primary: var(--font-jetbrainsMono, "JetBrains Mono", monospace);
   --font-geist-sans: var(--font-geist-sans);
-  --font-geist-mono: var(--font-geist-mono); 
+  --font-geist-mono: var(--font-geist-mono);
 
   /* color */
   --color-bg-primary: #1c1c22;
@@ -136,6 +135,25 @@
   body {
     @apply bg-bg-primary text-foreground font-primary text-white leading-loose;
   }
+  .h1 {
+    @apply text-[48px] xl:text-[70px] leading-[1.1] font-semibold;
+  }
+  .h2 {
+    @apply text-[36px] xl:text-[48px] leading-[1.1] font-semibold;
+  }
+  .h3 {
+    @apply text-[20px] xl:text-[24px] leading-[1.1] font-semibold;
+  }
+
+  .text-outline {
+    -webkit-text-stroke: 3px #ffffff;
+  }
+
+  .text-outline-hover {
+    -webkit-text-stroke: 3px var(--color-primary-default);
+  }
+
+  .group:hover .group-hover\:text-outline-hover {
+    -webkit-text-stroke: 3px var(--color-primary-default);
+  }
 }
-
-

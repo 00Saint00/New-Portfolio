@@ -19,7 +19,7 @@ const PageTransition = ({ children }: pageTransitionProps) => {
             transition: { delay: 1, duration: 0.5, ease: "easeInOut" },
           }}
           exit={{ opacity: 0 }}
-          className="h-screen w-screen fixed bg-bg-primary top-0 pointer-events-none inset-0 bg-background"
+          className="h-screen w-screen fixed bg-bg-primary top-0 pointer-events-none inset-0"
         ></motion.div>
         {children}
       </div>
