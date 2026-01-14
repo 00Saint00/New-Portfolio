@@ -65,7 +65,7 @@ const projects = [
     num: "04",
     category: "Frontend",
     title: "APBC",
-    "A professional website built for the Association of Pet Behaviour Counsellors (APBC), a UK‑based organisation dedicated to promoting high standards of animal behaviour practice and welfare. The site showcases APBC’s services, membership information, events, and resources for animal behaviour professionals and pet owners.",
+    description: "A professional website built for the Association of Pet Behaviour Counsellors (APBC), a UK‑based organisation dedicated to promoting high standards of animal behaviour practice and welfare. The site showcases APBC’s services, membership information, events, and resources for animal behaviour professionals and pet owners.",
     stack: [
       { name: "Umbraco" },
       { name: "HTML" },
