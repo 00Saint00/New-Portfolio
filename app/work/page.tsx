@@ -110,7 +110,7 @@ const Work = () => {
         opacity: 1,
         transition: { delay: 2.4, duration: 0.4, ease: "easeInOut" },
       }}
-      className="min-h-[80vh] flex flex-col justify-center py-12 xl:py-0"
+      className="min-h-[80vh] flex flex-col justify-center py-12 pb-20 xl:py-0"
     >
       {" "}
       <div className="container mx-auto px-2 md:px-0">
@@ -174,11 +174,11 @@ const Work = () => {
               </div>
             </div>
           </div>
-          <div className="w-full xl:w-[50%] relative">
+          <div className="w-full xl:w-[50%] relative pb-16 xl:pb-0">
             <Swiper
               spaceBetween={30}
               slidesPerView={1}
-              className="xl:h-[520px] mb-12"
+              className="xl:h-[520px] mb-0 xl:mb-12"
               onSlideChange={handleChange}
               onBeforeInit={(swiper) => {
                 swiperRef.current = swiper;
@@ -206,7 +206,7 @@ const Work = () => {
             </Swiper>
 
             {/* Custom Navigation Buttons */}
-            <div className="flex gap-2 absolute right-0 bottom-0  xl:bottom-0 z-10 w-full justify-between xl:w-max xl:justify-none">
+            <div className="flex gap-2 absolute right-0 bottom-0 xl:bottom-0 z-10 w-full justify-between px-2 xl:px-0 xl:w-max xl:justify-none">
               <button
                 onClick={() => swiperRef.current?.slidePrev()}
                 // className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group hover:bg-white/10 transition-colors"
