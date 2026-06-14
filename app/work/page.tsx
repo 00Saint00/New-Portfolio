@@ -25,7 +25,6 @@ import Image from "next/image";
 const projects = [
   {
     num: "01",
-    category: "Frontend",
     title: "Wightmore School of Dance",
     description:
       "A content-managed site for the Wightmore School of Dance, presenting class offerings, schedules, and the school’s welcoming atmosphere for dancers of all ages.",
@@ -36,7 +35,6 @@ const projects = [
   },
   {
     num: "02",
-    category: "Frontend",
     title: "Mojito",
     description:
       "This website was built to practice my skills and learn about gsap animations",
@@ -47,7 +45,6 @@ const projects = [
   },
   {
     num: "03",
-    category: "FullStack",
     title: "Shopco",
     description:
       "A personal Project built with react, tailwindcss and shadcn/ui, Appwrite was used for the authentication and database.[Still in development]",
@@ -63,7 +60,6 @@ const projects = [
   },
   {
     num: "04",
-    category: "Frontend",
     title: "APBC",
     description: "A professional website built for the Association of Pet Behaviour Counsellors (APBC), a UK‑based organisation dedicated to promoting high standards of animal behaviour practice and welfare. The site showcases APBC’s services, membership information, events, and resources for animal behaviour professionals and pet owners.",
     stack: [
@@ -78,7 +74,6 @@ const projects = [
   },
   {
     num: "05",
-    category: "Frontend",
     title: "IRC",
     description:
       "An Umbraco-powered website for the Independent Retailers Confederation, designed to communicate their mission, member organisations, and industry advocacy through a flexible CMS.",
@@ -123,7 +118,7 @@ const Work = () => {
               </div>
 
               <h2 className="text-[42px] font-bold leading-none text-white">
-                {project.category} Project
+                {project.title}
               </h2>
 
               {/* project description */}
